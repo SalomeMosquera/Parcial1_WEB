@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Habilidades</title>
+    <title>Git Ignore</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="dscripcion"
-      content="Este es un portafolio de SALOME MOSQUERA"
+      content="Este es un paso a paso de como realizar Git Ignore"
     />
-    <meta name="keywords" content="portafolio, about me" />
+    <meta name="keywords" content="función git, git ignore" />
     <meta name="author" content="Salome Mosquera" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav>
-      <a href="/">Inicio</a>
-      <a href="/proyectos.html">Proyectos</a>
-      <a href="/git.html" currentP="page">Git Ignore</a>
+        <div class="nav">
+            <a href="/">¿Quién soy?</a>
+            <a href="/proyectos.html">Proyectos</a>
+            <a href="/git.html" currentP="page">Git Ignore</a>
+        </div>
+      
     </nav>
     <main>
-      <h1>SALOME MOSQUERA</h1>
-    </main>
+        <div class="container-sup">
+          <h1>PASO A PASO PARA UTILIZAR <br>GIT IGNORE</h1>
+            <div class="pasos">
+              <div class="hab">
+                <h3>PASO 1</h3>
+  
+                <p>Para empezar, ve a la raíz de tu proyecto, donde se encuentra la carpeta .git, y crea un nuevo archivo llamado .gitignore</p>
+              </div>
+  
+              <div class="hab">
+                <h3>PASO 2</h3>
+                <p>Abre el archivo .gitignore en un editor de texto y escribe el nombres de los archivos que deseas que Git ignore. 
+                <br>Por ejemplo, para ignorar todos los archivos con la extensión.log, puedes añadir <b>*.log</b>. <br>Para ignorar carpetas completas escribe <b>nombre_de_carpeta/</b> <br>Y para archivos específicos escribe <b>notas.txt`</b>.</p>
+              </div>
+  
+              <div class="hab">
+                <h3>PASO 3</h3>
+                <p>Finalmente, guarda los cambios en el archivo .gitignore. Luego, usa el comando git status para verificar que los archivos o directorios especificados no aparezcan en la lista de cambios pendientes, lo que confirmará que están siendo ignorados correctamente. </p>
+              </div>
+            </div>
+        </div>
+      </main>
   </body>
 </html>
