@@ -3,21 +3,74 @@
   <head>
     <title>Home</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="dscripcion"
+      content="Este es un portafolio de SALOME MOSQUERA"
+    />
+    <meta name="keywords" content="portafolio, about me" />
+    <meta name="author" content="Salome Mosquera" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
   </head>
   <body>
     <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+      <a href="/" currentP="page">Inicio</a>
+      <a href="/proyectos.html">Proyectos</a>
+      <a href="/git.html">Git Ignore</a>
     </nav>
     <main>
-      <h1>Home page</h1>
+      <div class="container-sup">
+      <div class="container">
+        <div class="foto">
+          <img class="img"
+            src="https://media.glamour.mx/photos/625ef25d60c1ff99f27d9d9d/4:3/w_1699,h_1274,c_limit/Elizabeth%20Olsen-Wanda%20Maximoff.jpg"
+            alt=""
+            width="200px"
+            height="150px"
+          />
+        </div>
+
+        <div class="description">
+          <p>
+            <h1>SALOME MOSQUERA PRIETO</h1>
+            Soy Estudiante de Ingenieria Multimedia estoy cursando 6 semestre en la universidad Autónoma de Occidente.
+          </p>
+          <a href="https://www.instagram.com/" target="_blank" class="redes">
+            <i class="fa-brands fa-square-instagram fa-4x"></i>
+        </a>
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="container-habilidades">
+      <h1>MIS HABILIDADES</h1>
+      <div class="habilidades">
+        
+        <div class="blandas hab">
+          <h3>BLANDAS</h3>
+          <ul>
+            <li>Responsabilidad</li>
+            <li>Disciplina</li>
+            <li>Saber escuchar</li>
+            <li>Compromiso</li>
+          </ul>
+        </div>
+
+        <div class="duras hab">
+          <h3>DURAS</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Blender</li>
+            <li>After Effects</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
     </main>
   </body>
 </html>
